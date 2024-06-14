@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="border-2 border-black">
+    <!-- TopBar start -->
+    <div class="TopBar py-2 flex items-center">
+      <div class="flex justify-between container">
+        <div class="container1 flex">
+          <div class="flex">
+            <img class="Topicons" src="./Images/vectors/pin.svg" />
+            <div class="TopbarText flex items-center ml-2">
+              Tilak Nagar, New Delhi
+            </div>
+          </div>
+          <div class="flex topbarphn ml-16">
+            <img class="Topicons" src="./Images/vectors/phone.svg" />
+            <div class="TopbarText flex items-center ml-2">+917042568767</div>
+          </div>
+        </div>
+
+        <div class="container2 flex">
+          <img
+            class="Topicons mx-2 cursor-pointer"
+            src="./Images/vectors/youtube.svg"
+          />
+          <img
+            class="Topicons mx-2 cursor-pointer"
+            src="./Images/vectors/instagram.svg"
+          />
+          <img
+            class="Topicons mx-2 cursor-pointer"
+            src="./Images/vectors/facebook.svg"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- TopBar End -->
+    <!-- Navbar start -->
+    <nav class="Navbar navbar navbar-expand-lg navbar-light ">
+      <div class="NavbarDiv container py-3">
+        <div class="Navrow1 flex justify-between">
+          <div class="container1_nav">
+            <img
+              class="mainlogo"
+              src="./Images/tha-images/MainLogo.png"
+              alt="Logo"
+            />
+          </div>
+          <div class="Search_bar2">
+            <input
+              class="px-2 py-1 w-34 search rounded-lg"
+              type="text"
+              placeholder="Search"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div>
+          <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+          <ul class="NavbarItems flex font-bold items-center">
+            <li class="active mr-8 cursor-pointer">Home</li>
+            <li class="mr-8 cursor-pointer">About US</li>
+            <li class="mr-8 cursor-pointer">Projects</li>
+            <li class="mr-8 cursor-pointer">Career</li>
+            <li class="searchbar">
+              <input
+                class="px-2 py-1 w-34 search rounded-lg"
+                type="text"
+                placeholder="Search"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+          </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- First Section Start -->
+    <div class="mainContainer">
+      <img src="./Images/tha-images/main banner.png" alt="image_home" />
+      <div class="BannerText">
+        <p class="BannerText_heading">Lorem ipsum dolor</p>
+        <p class="BannerText_Body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet
+          nesciunt nulla, doloremque aut nihil totam dolor
+        </p>
+        <button class="mainContButton btn btn-primary">Click Here</button>
+      </div>
+    </div>
+    <!-- First Section End -->
+    <!-- Second Section Start -->
+    <div class="secondContainer">
+      <div>
+        <p class="secondContainer_heading flex justify-center">Lorem ipsum</p>
+      </div>
+
+      <!-- card1 start -->
+      <div class="card1 secondBody container">
+        <div class="SecondBodyCardImg">
+          <img
+            class="secondBodyImg"
+            src="./Images/tha-images/Mask group(1).png"
+          />
+        </div>
+
+        <div class="secondBodyText">
+          <p class="secondBodyTextHeading">Lorem ipsum dolor sit amet</p>
+          <p class="secondBodyTextBody">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae,
+            tempore deserunt dignissimos consectetur dolore expedita, cumque
+            minus blanditiis fugiat repellendus voluptate eius molestiae
+            officia!
+          </p>
+          <div class="flex">
+            <button class="secondB_buttons px-2 py-1">UI & UX Design</button>
+            <button class="secondB_buttons px-2 py-1">Development</button>
+            <button class="secondB_buttons px-2 py-1">Marketing</button>
+          </div>
+          <div>
+            <button
+              class="secondB2_buttons btn btn-primary rounded-full py-1 px-3 mr-3"
+            >
+              Click Me
+            </button>
+            <button
+              class="secondB2_buttons btn btn-outline-dark rounded-full py-1 px-3"
+            >
+              Click Me
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- card1 End -->
+
+      <!-- card2 start -->
+      <div class="card2 secondBody container">
+        <div class="SecondBodyCard2Img ">
+          <img
+            class="secondBodyImg"
+            src="./Images/tha-images/Mask group(2).png"
+          />
+        </div>
+
+        <div class="secondBodyText_card2">
+          <p class="secondBodyTextHeading">Lorem ipsum dolor sit amet</p>
+          <p class="secondBodyTextBody">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae,
+            tempore deserunt dignissimos consectetur dolore expedita, cumque
+            minus blanditiis fugiat repellendus voluptate eius molestiae
+            officia!
+          </p>
+          <div class="flex">
+            <button class="secondB_buttons px-2 py-1">UI & UX Design</button>
+            <button class="secondB_buttons px-2 py-1">Development</button>
+            <button class="secondB_buttons px-2 py-1">Marketing</button>
+          </div>
+          <div>
+            <button
+              class="secondB2_buttons btn btn-primary rounded-full py-1 px-3 mr-3"
+            >
+              Click Me
+            </button>
+            <button
+              class="secondB2_buttons btn btn-outline-dark rounded-full py-1 px-3"
+            >
+              Click Me
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- card2 End -->
+
+      <!-- card3 start -->
+      <div class="card3 secondBody container">
+        <div class="SecondBodyCardImg">
+          <img
+            class="secondBodyImg"
+            src="./Images/tha-images/Mask group(3).png"
+          />
+        </div>
+
+        <div class="secondBodyText">
+          <p class="secondBodyTextHeading">Lorem ipsum dolor sit amet</p>
+          <p class="secondBodyTextBody">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae,
+            tempore deserunt dignissimos consectetur dolore expedita, cumque
+            minus blanditiis fugiat repellendus voluptate eius molestiae
+            officia!
+          </p>
+          <div class="flex">
+            <button class="secondB_buttons px-2 py-1">UI & UX Design</button>
+            <button class="secondB_buttons px-2 py-1">Development</button>
+            <button class="secondB_buttons px-2 py-1">Marketing</button>
+          </div>
+          <div>
+            <button
+              class="secondB2_buttons btn btn-primary rounded-full py-1 px-3 mr-3"
+            >
+              Click Me
+            </button>
+            <button
+              class="secondB2_buttons btn btn-outline-dark rounded-full py-1 px-3"
+            >
+              Click Me
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- card3 End -->
+    </div>
+    <!-- Second Section End -->
+
+    <!-- Third Section Start -->
+    <div class="ThirdSection container">
+      <p class="ThirdSectionHeading">Lorem ipsum dolor</p>
+
+      <!-- bedroom buttons start -->
+      <div class="ThirdSectionButtons flex justify-between">
+        <div>
+          <button class="BedroomButtons0 px-2 py-1 mr-2 mt-3 rounded-full">
+            1 BEDROOM
+          </button>
+          <button class="BedroomButtons px-2 py-1 mt-3 rounded-full">
+            2 BEDROOMS
+          </button>
+          <button class="BedroomButtons px-2 py-1 mt-3 rounded-full">
+            3 BEDROOMS
+          </button>
+          <button class="BedroomButtons px-2 py-1 mt-3 rounded-full">
+            4 BEDROOMS
+          </button>
+        </div>
+
+        <div class="arrow mt-3">
+          <i
+            class="leftArrow fa-solid fa-arrow-right fa-flip-horizontal border-1 border-black p-2 rounded-full cursor-pointer mr-2"
+          ></i>
+          <i
+            class="rightArrow fa-solid fa-arrow-right border-1 border-black p-2 rounded-full cursor-pointer"
+          ></i>
+        </div>
+      </div>
+      <!-- bedroom buttons End -->
+      <!-- Third section card start -->
+      <div class="flex ThirdsectionMainDiv row">
+        <!-- card1 start -->
+        <card class="ThirdSecCard col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <img
+            class="ThirdSecCard_img mt-5"
+            src="./Images//tha-images/Top Image.png"
+            alt="card_img"
+          />
+          <p class="ThirdSecCard_Heading">Caulfield North</p>
+          <div class="ThirdSecCard_Text flex justify-between">
+            <p>Abbotsford, Victoria</p>
+            <p>from $700,00</p>
+          </div>
+        </card>
+        <!-- card1 End -->
+
+        <!-- card2 start -->
+        <card class="ThirdSecCard col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <img
+            class="ThirdSecCard_img mt-5"
+            src="./Images//tha-images/Top Image(1).png"
+            alt="card_img"
+          />
+          <p class="ThirdSecCard_Heading">Albero Apartments</p>
+          <div class="ThirdSecCard_Text flex justify-between">
+            <p>Abbotsford, Victoria</p>
+            <p>from $700,00</p>
+          </div>
+        </card>
+        <!-- card2 End -->
+
+        <!-- card3 start -->
+        <card class="ThirdSecCard col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <img
+            class="ThirdSecCard_img mt-5"
+            src="./Images//tha-images/Top Image(2).png"
+            alt="card_img"
+          />
+          <p class="ThirdSecCard_Heading">Highett Common</p>
+          <div class="ThirdSecCard_Text flex justify-between">
+            <p>Abbotsford, Victoria</p>
+            <p>from $700,00</p>
+          </div>
+        </card>
+        <!-- card3 End -->
+      </div>
+
+      <!-- Third section card End -->
+    </div>
+    <!-- Third Section End -->
+
+    <!-- Contact us start -->
+    <div class="contactusDiv container flex flex-column items-center">
+      <div class="contactHeading flex flex-column items-center">
+        <p class="contPrimHeading">Contact Us</p>
+        <p class="contSecHeading">
+          Any question or remarks? Just write us a message!
+        </p>
+      </div>
+      <div class="ContactMain ">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="ContactMainFirst ">
+              <p class="ContactInfoHeading">Contact Information</p>
+              <p class="ContactInfoBody">Say Something to start a live chat!</p>
+              <div>
+                <div class="flex contactInfoCall">
+                  <img
+                    class="contactInfoImg"
+                    src="./Images/vectors/call.svg"
+                    alt="call_img"
+                  />
+                  <p class="ContactInfoDetails">+1012 3456 789</p>
+                </div>
+                <div class="flex contactInfoEmail">
+                  <img
+                    class="contactInfoImg"
+                    src="./Images/vectors/email.svg"
+                    alt="email_img"
+                  />
+                  <p class="ContactInfoDetails">demo@gmail.com</p>
+                </div>
+                <div class="flex contactInfoAddress">
+                  <img
+                    class="contactInfoImg"
+                    src="./Images/vectors/homepin.svg"
+                    alt="pin_img"
+                  />
+                  <p class="ContactInfoDetails">
+                    132 Dartmouth Street Boston, Massachusetts 02156 United
+                    States
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="ContactMainSecond ">
+              <div class="row Contactrow1">
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div>
+                    <label class="fnameLabel" for="f_name">First Name</label>
+                  </div>
+                  <input
+                    class="Fname col-lg-6 col-md-6 col-sm-6 col-xs-6"
+                    type="text"
+                    id="f_name"
+                  />
+                </div>
+
+                <div class="lname_ col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div>
+                    <label class="lnameLabel" for="l_name">Last Name</label>
+                  </div>
+                  <input
+                    class="Fname col-lg-6 col-md-6 col-sm-6 col-xs-6"
+                    type="text"
+                    id="l_name"
+                  />
+                </div>
+              </div>
+
+              <div class="row Contactrow2">
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xs-6">
+                  <div>
+                    <label class="emailLabel" for="email_">Email</label>
+                  </div>
+                  <input
+                    class="Fname col-lg-6 col-md-6 col-sm-6 col-xs-6"
+                    type="text"
+                    id="email_"
+                  />
+                </div>
+
+                <div class="phn_ col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div>
+                    <label class="phnLabel" for="phn_">Phone Number</label>
+                  </div>
+                  <input
+                    class="Fname col-lg-6 col-md-6 col-sm-6 col-xs-6"
+                    type="text"
+                    id="phn_"
+                  />
+                </div>
+              </div>
+
+              <div class="selectSub">
+                <label class="Sublabel">Select Subject ?</label>
+                <div class="check1 row">
+                  <span class="col-6 mt-2 flex justify-center items-center">
+                    <input
+                      class="mr-1 cursor-pointer"
+                      type="checkbox"
+                      name="radioNoLabel"
+                      id="Label1"
+                      value=""
+                    />
+                    <label class="Checklabel mr-5 cursor-pointer" for="Label1"
+                      >General Inquery</label
+                    >
+                  </span>
+                  <span class="col-6 mt-2 flex justify-center items-center">
+                    <input
+                      class="mr-1 cursor-pointer"
+                      type="checkbox"
+                      name="radioNoLabel"
+                      id="Label2"
+                      value=""
+                    />
+                    <label class="Checklabel mr-5 cursor-pointer" for="Label2"
+                      >General Inquery</label
+                    >
+                  </span>
+                  <span class="col-6 mt-2 flex justify-center items-center">
+                    <input
+                      class="mr-1 cursor-pointer"
+                      type="checkbox"
+                      name="radioNoLabel"
+                      id="Label3"
+                      value=""
+                    />
+                    <label class="Checklabel mr-5 cursor-pointer" for="Label3"
+                      >General Inquery</label
+                    >
+                  </span>
+                  <span class="col-6 mt-2 flex justify-center items-center">
+                    <input
+                      class="mr-1 cursor-pointer"
+                      type="checkbox"
+                      name="radioNoLabel"
+                      id="Label4"
+                      value=""
+                    />
+                    <label class="Checklabel mr-5 cursor-pointer" for="Label4"
+                      >General Inquery</label
+                    >
+                  </span>
+                </div>
+              </div>
+
+              <div class="ContactMessage row">
+                <div class="col-12">
+                  <label class="ContactMsgg">Message</label>
+                  <div class="textarea">
+                    <textarea
+                      class="ContactMsg"
+                      type="text"
+                      placeholder="Write your message.."
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div class="sendmsgDiv">
+                  <button class="SendMsgButton rounded-full">
+                    <span class="sendmsg"> Send Message </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact us End -->
+
+    <!-- Footer Start -->
+    <div class="footerDiv">
+      <div class="flex items-center justify-center">
+        <img
+          class="footerImg"
+          src="./Images/tha-images/MainLogo.png"
+          alt="footerImg"
+        />
+      </div>
+      <div class="footerLinks flex justify-center items-center">
+        <ul class="flex font-bold items-center row">
+          <li
+            class="footerli mr-8  mt-3 cursor-pointer col-lg-2 col-md-4 col-sm-4 text-center"
+          >
+            Home
+          </li>
+          <li
+            class="footerli mr-8 mt-3 cursor-pointer col-lg-2 col-md-4 col-sm-4 text-center"
+          >
+            About
+          </li>
+          <li
+            class="footerli mr-8 mt-3 cursor-pointer col-lg-2 col-md-4 col-sm-4 text-center"
+          >
+            Service
+          </li>
+          <li
+            class="footerli mr-8 mt-3 cursor-pointer col-lg-2 col-md-4 col-sm-4 text-center"
+          >
+            Get in touch
+          </li>
+          <li
+            class="footerli mt-3 cursor-pointer col-lg-2 col-md-4 col-sm-4 text-center"
+          >
+            FAQs
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex FooterIcon justify-center">
+        <img
+          class="footericons mx-2 cursor-pointer"
+          src="./Images/vectors/facebook.svg"
+        />
+        <img
+          class="footericons mx-2 cursor-pointer"
+          src="./Images/vectors/instagram.svg"
+        />
+        <img class="mx-2 cursor-pointer" src="./Images/vectors/linkedin.svg" />
+      </div>
+
+      <div class="footerLine container"></div>
+
+      <div class="footerEnd container ">
+        <div class="footerbtn flex">
+          <button class="languageBtn1 mr-5">English</button>
+          <button class="languageBtn2 mr-5">Arabic</button>
+          <button class="languageBtn2">French</button>
+        </div>
+        <div class="copyright">
+          <p class="copyright_content">
+            Non Copyright &#169; 2022 Upload by rich technologies
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer End -->
+  </body>
+</html>

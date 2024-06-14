@@ -1,0 +1,1001 @@
+:root {
+  --main-bg-color: #007dfc;
+}
+
+.TopBar {
+  background-color: var(--main-bg-color);
+  color: white;
+  height: 34px;
+}
+
+.Topicons {
+  height: 1.4rem;
+  width: auto;
+}
+
+.Navbar {
+  height: 78px;
+}
+
+.NavbarItems > li {
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+}
+
+.NavbarItems > .active {
+  color: black;
+  font-weight: 700;
+}
+
+.NavbarItems > li:hover {
+  text-decoration: 2px solid black underline;
+  color: black;
+  font-weight: 700;
+}
+
+.mainlogo {
+  width: 8rem;
+}
+
+.search {
+  background-color: #eaeff4;
+  color: black;
+}
+.Search_bar2 {
+  display: none;
+}
+
+.fa-magnifying-glass {
+  position: relative;
+  right: 35px;
+  cursor: pointer;
+}
+
+.BannerText {
+  /* height: 180px; */
+  position: absolute;
+  top: 272px;
+  left: 99px;
+  color: white;
+}
+
+.BannerText_heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.48px;
+}
+
+.BannerText_Body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  margin-top: 12px;
+  width: 70%;
+}
+
+.mainContButton {
+  width: 159px;
+  height: 49px;
+  padding: 13px, 43px, 13px, 43px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.68px;
+  margin-top: 20px;
+}
+
+.secondContainer {
+  margin-top: 143px;
+}
+
+.secondContainer_heading {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 63px;
+}
+
+.secondBodyImg {
+  width: 600px;
+  height: 366px;
+}
+.SecondBodyCardImg {
+  order: 0;
+}
+.SecondBodyCard2Img {
+  order: 1;
+}
+.secondBodyText {
+  width: 557px;
+  height: 250px;
+  margin-left: 65px;
+  order: 1;
+}
+
+.secondBodyText_card2 {
+  width: 557px;
+  height: 250px;
+  margin-right: 65px;
+  order: 0;
+}
+
+.secondBodyTextHeading {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 63px;
+}
+
+.secondBodyTextBody {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.secondB_buttons {
+  background-color: #eaeff4;
+  color: black;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.secondB2_buttons {
+  margin-top: 20px;
+  width: 108px;
+  height: 33px;
+  padding: 8px, 16px, 8px, 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 137px;
+  margin-bottom: 56px;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ThirdsectionMainDiv {
+  justify-content: space-between;
+}
+
+.ThirdSection {
+  margin-top: 60px;
+}
+
+.ThirdSectionHeading {
+  font-size: 37.65px;
+  font-weight: 700;
+  line-height: 47.44px;
+}
+
+.ThirdSectionButtons {
+  margin-top: 40px;
+}
+.BedroomButtons0 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.82px;
+  background-color: var(--main-bg-color);
+  color: white;
+  margin-right: 10px;
+}
+.BedroomButtons {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.82px;
+  background-color: #e8f3ff;
+  margin-right: 10px;
+}
+.arrow {
+  width: 6rem;
+}
+.leftArrow {
+  background-color: #e8f3ff;
+  color: rgba(133, 133, 133, 0.89);
+}
+
+.rightArrow {
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+.ThirdSecCard {
+  margin-top: 37px;
+  width: 400px;
+  height: 562.56px;
+}
+
+.ThirdSecCard_img {
+  width: 400px;
+  height: 483.61px;
+}
+
+.ThirdSecCard_Heading {
+  font-size: 23.21px;
+  font-weight: 400;
+  line-height: 29.25px;
+}
+
+.ThirdSecCard_Text {
+  font-size: 15.48px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+.contactusDiv {
+  margin-top: 150px;
+}
+
+.contPrimHeading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+}
+
+.contSecHeading {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.68px;
+}
+
+.ContactMain {
+  height: 667px;
+  margin-top: 54px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ContactMainFirst {
+  height: 647px;
+  background-color: var(--main-bg-color);
+  border-radius: 1rem;
+}
+
+.ContactMainSecond {
+  height: 647px;
+  border-radius: 1rem;
+  color: black;
+}
+
+.ContactInfoHeading {
+  width: 80%;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35.28px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.ContactInfoBody {
+  width: 80%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.68px;
+  position: relative;
+  top: 88px;
+  left: 40px;
+}
+
+.contactInfoCall {
+  position: relative;
+  top: 200px;
+  left: 40px;
+  width: 80%;
+}
+
+.contactInfoEmail {
+  position: relative;
+  top: 260px;
+  left: 40px;
+  width: 80%;
+}
+
+.contactInfoAddress {
+  width: 288px;
+  height: 40px;
+  position: relative;
+  top: 320px;
+  left: 40px;
+  width: 80%;
+}
+
+.contactInfoImg {
+  width: 24px;
+  height: 24px;
+  margin-right: 2rem;
+}
+
+.ContactInfoDetails {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.16px;
+}
+
+.Contactrow1 {
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+.Fname {
+  border-bottom: 1px solid black;
+  width: 100%;
+  outline: none;
+}
+
+.Contactrow2 {
+  position: relative;
+  top: 100px;
+  left: 40px;
+}
+
+.selectSub {
+  position: relative;
+  top: 150px;
+  left: 40px;
+}
+
+.ContactMessage {
+  height: 56px;
+  position: relative;
+  top: 200px;
+  left: 40px;
+}
+
+.ContactMsg {
+  margin-top: 5px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.fnameLabel,
+.emailLabel {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #8d8d8d;
+}
+
+.lnameLabel,
+.phnLabel {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.Sublabel {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.Checklabel {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+}
+
+.ContactMsgg {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #8d8d8d;
+}
+
+.SendMsgButton {
+  width: 214px;
+  height: 54px;
+  padding: 15px, 48px, 15px, 48px;
+  background-color: var(--main-bg-color);
+}
+
+.sendmsg {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+}
+
+.sendmsgDiv {
+  width: 214px;
+  height: 54px;
+  position: relative;
+  top: 270px;
+  float: right;
+}
+
+.footerDiv {
+  margin-top: 100px;
+  width: 99vw;
+  height: 370px;
+  background-color: #f5faff;
+}
+
+.footerImg {
+  width: 199px;
+  height: 41.46px;
+  position: relative;
+  top: 43px;
+}
+
+.footerLinks {
+  position: relative;
+  top: 100px;
+}
+.footerLinks > ul {
+  width: 65%;
+}
+
+.footerli {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  color: #535353;
+}
+
+.FooterIcon {
+  position: relative;
+  top: 150px;
+  height: 24px;
+}
+
+.footericons {
+  filter: invert(1);
+}
+
+.footerLine {
+  height: 1px;
+  background-color: #dfdfdf;
+  position: relative;
+  top: 190px;
+}
+
+.footerbtn,
+.copyright {
+  position: relative;
+  top: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.languageBtn1 {
+  width: 80px;
+  height: 33px;
+  padding: 8px, 16px, 8px, 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+.languageBtn2,
+.copyright_content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  color: #535353;
+}
+
+.footerEnd {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+  .ContactMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ContactMainSecond {
+    /* width: 680px; */
+    height: 500px;
+  }
+
+  .ContactMainFirst {
+    height: 600px;
+  }
+
+  .ContactInfoBody {
+    position: relative;
+    top: 60px;
+    left: 40px;
+  }
+
+  .contactInfoCall {
+    position: relative;
+    top: 100px;
+  }
+
+  .contactInfoEmail {
+    position: relative;
+    top: 140px;
+  }
+
+  .contactInfoAddress {
+    position: relative;
+    top: 180px;
+  }
+}
+@media (max-width: 1200px) {
+  .footerDiv {
+    height: 400px;
+  }
+  .BannerText {
+    position: absolute;
+    top: 225px;
+    left: 90px;
+  }
+}
+@media (max-width: 1030px) {
+  .ThirdsectionMainDiv {
+    justify-content: center;
+  }
+
+  .ContactMainSecond {
+    height: 900px;
+  }
+
+  .ContactMainFirst {
+    height: 400px;
+  }
+
+  .ContactMain {
+    margin-top: 13rem;
+  }
+  .secondBodyText,
+  .secondBodyText_card2 {
+    height: 385px;
+  }
+}
+
+@media (max-width: 992px) {
+  .Contactrow1,
+  .Contactrow2,
+  .selectSub,
+  .ContactMessage {
+    position: relative;
+    left: 0px;
+  }
+  .Navbar {
+    height: 100px;
+  }
+  .ContactMain {
+    margin-top: 25rem;
+  }
+  .footerDiv {
+    height: 430px;
+  }
+  .BannerText {
+    /* height: 180px; */
+    position: absolute;
+    top: 215px;
+    left: 50px;
+    color: white;
+  }
+  .BannerText_heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.48px;
+  }
+  .BannerText_Body {
+    width: 80%;
+  }
+}
+@media (max-width: 900px) {
+  .BannerText {
+    position: absolute;
+    top: 200px;
+    left: 45px;
+  }
+}
+@media (max-width: 798px) {
+  .card1,
+  .card2,
+  .card3 {
+    flex-direction: column;
+    height: 40rem;
+  }
+  .secondBodyText {
+    width: 90%;
+    margin-left: -42px;
+  }
+  .secondBodyText_card2 {
+    order: 1;
+    width: 90%;
+    margin-left: 30px;
+  }
+  .SecondBodyCard2Img {
+    order: 0;
+  }
+  .card1 {
+    margin-top: 35px;
+  }
+  .BannerText_heading {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45.48px;
+  }
+  .BannerText_Body {
+    font-size: 12px;
+    width: 66%;
+  }
+  .secondContainer {
+    margin-top: 30px;
+  }
+  .contactusDiv {
+    margin-top: 100px;
+  }
+  .footerDiv {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .searchbar {
+    display: none;
+  }
+  .Search_bar2 {
+    display: block;
+  }
+  .Navbar{
+    margin-bottom: 10px;
+  }
+  .Navrow1 {
+    width: 100%;
+  }
+  .NavbarDiv {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .NavbarItems {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .BannerText_heading {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34.48px;
+  }
+  .BannerText_Body {
+    font-size: 12px;
+    width: 62%;
+  }
+  .BannerText {
+    position: absolute;
+    top: 188px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .TopbarText {
+    font-size: 0.7rem !important;
+  }
+  .footerEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright {
+    margin-top: 1rem;
+  }
+  .footerDiv {
+    height: 470px;
+  }
+  .ThirdSectionHeading {
+    text-align: center;
+  }
+  .ThirdSection {
+    margin-top: 70px;
+  }
+  .BannerText_heading {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 12.48px;
+  }
+  .BannerText_Body {
+    font-size: 11px;
+    width: 53%;
+  }
+  .mainContButton {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .lname_,
+  .phn_ {
+    margin-top: 3rem;
+  }
+
+  .ContactMainSecond {
+    height: 1300px;
+  }
+
+  .ContactMain {
+    margin-top: 37rem;
+  }
+  .footerDiv {
+    height: 540px;
+  }
+  .BannerText_heading {
+    font-size: 19px;
+    line-height: 6.48px;
+  }
+  .BannerText_Body {
+    font-size: 13px;
+    width: 60%;
+  }
+  .mainContButton {
+    width: 90px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .TopbarText {
+    font-size: 0.5rem !important;
+    margin-left: 5px;
+  }
+
+  .topbarphn {
+    margin-left: 30px;
+  }
+
+  .Topicons {
+    height: 1rem;
+    width: auto;
+  }
+
+  .ContactMainSecond {
+    height: 1436px;
+  }
+
+  .ContactMain {
+    margin-top: 40rem;
+  }
+  .arrow {
+    width: 10rem;
+  }
+  .ThirdSectionHeading {
+    font-size: 30px;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    flex-direction: column;
+    height: 40rem;
+  }
+  .BannerText {
+    position: absolute;
+    top: 173px;
+    left: 24px;
+  }
+  .BannerText_heading {
+    font-size: 15px;
+    line-height: 0.48px;
+  }
+  .BannerText_Body {
+    font-size: 10px;
+    width: 44%;
+  }
+  .mainContButton {
+    width: 80px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-top: 7px;
+  }
+  .secondBodyTextHeading {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+  }
+  .Search_bar2 {
+    width: 150px;
+  }
+  .Search_bar2 > input {
+    width: 125px;
+  }
+}
+
+@media (max-width: 420px) {
+  .BannerText {
+    position: absolute;
+    top: 175px;
+    left: 21px;
+  }
+  .BannerText_heading {
+    font-size: 15px;
+  }
+  .BannerText_Body {
+    font-size: 11px;
+    width: 60%;
+    line-height: 15px;
+  }
+  .mainContButton {
+    width: 87px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .secondBodyText {
+    margin-left: -36px;
+  }
+}
+
+@media (max-width: 375px) {
+  .NavbarItems {
+    font-size: 13px;
+  }
+  .Search_bar2 {
+    width: 130px;
+  }
+  .Search_bar2 > input {
+    width: 100px;
+  }
+  .mainlogo {
+    width: 7rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .Topicons {
+    margin-right: 0px !important;
+  }
+
+  .copyright_content {
+    font-size: 12px;
+  }
+  .ContactMainFirst {
+    height: 450px;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    flex-direction: column;
+    height: 45rem;
+  }
+  .BannerText {
+    position: absolute;
+    top: 170px;
+    left: 21px;
+  }
+  .BannerText_heading {
+    font-size: 15px;
+  }
+  .BannerText_Body {
+    font-size: 11px;
+    width: 70%;
+    line-height: 15px;
+  }
+  .mainContButton {
+    width: 83px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 7px;
+  }
+  .secondBodyText {
+    margin-left: -32px;
+  }
+}
+@media (max-width: 340px) {
+  .NavbarItems {
+    font-size: 13px;
+  }
+  .NavbarItems > li {
+    margin-right: 17px;
+  }
+  .arrow {
+    width: 13rem;
+  }
+  .Checklabel {
+    font-size: 11px;
+  }
+  .BannerText {
+    position: absolute;
+    top: 170px;
+    left: 21px;
+  }
+  .BannerText_heading {
+    font-size: 12x;
+  }
+  .BannerText_Body {
+    font-size: 10px;
+    width: 85%;
+    line-height: 13px;
+  }
+  .mainContButton {
+    width: 83px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 300px) {
+  .copyright_content {
+    font-size: 10px;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    flex-direction: column;
+    height: 50rem;
+  }
+  .BannerText {
+    position: absolute;
+    top: 170px;
+    left: 21px;
+  }
+  .BannerText_heading {
+    font-size: 11px;
+  }
+  .BannerText_Body {
+    font-size: 9px;
+    width: 85%;
+    line-height: 11px;
+  }
+  .mainContButton {
+    width: 83px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 7px;
+  }
+
+}
